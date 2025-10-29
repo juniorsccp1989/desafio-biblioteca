@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS book (
+  id BIGINT PRIMARY KEY,
+  title VARCHAR(255),
+  status VARCHAR(20)
+);
+
+CREATE TABLE IF NOT EXISTS loan (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  book_id BIGINT,
+  start_date DATE,
+  finish_date DATE
+);
