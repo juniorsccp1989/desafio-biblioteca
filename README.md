@@ -65,3 +65,4 @@ Acesse a interface visual do Kafka pelo navegador:
 👉 **[http://localhost:8081](http://localhost:8081)**
 
 ---
+
